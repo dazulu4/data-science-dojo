@@ -5,11 +5,18 @@ Repositorio con material para realización del **DOJO** básico de Python y R co
 ## Instalación de Python y R sin Anaconda
 Con el fin de aprender, vamos a realizar la instalación de los productos sin Anaconda para de esta forma comprender el proceso de instalación en ambientes no developer:
 
-1. Realizar la instalación de Python [3.7.x](#https://www.python.org/downloads/windows/). Siga el wizzard de instalación y al final verifique que en la variable de ambiente **PATH** se encuentra la rutan *bin* de Python
-2. Realizar la instalación de Jupyter Notebook. Abra una consola **CMD** y lance el comando **pip**; si el programa responde proceda con la  instalación según el manual en [jupyter.org/install](#https://jupyter.org/install)
-3. Valide la instalación anterior lanzando el comando **jupyter notebook** en la consola **CMD**, se debe abrir el navegador por defecto y se debe poder visualizar los archivos del directorio actual.
-4. Realizar la instalación de Visual Studio Code *(Opcional)*. Descargue e instale el producto, la url para descarga es la siguiente: [code.visualstudio.com](#https://code.visualstudio.com/download)
-5. Abra el IDE y realice la instalación de los plugins Python que desee. Los recomendados son los siguientes: Python extension for Visual Studio Code, R support for Visual Studio Code, Code Runner (Ejecutor de scripts en cualquier lenguaje).
+#### Python 3.7.x
+> * Realizar la instalación de Python [3.7.x](#https://www.python.org/downloads/windows/). Siga el wizzard de instalación y al final verifique que en la variable de ambiente **PATH** se encuentra la rutan *bin* de Python.
+> * Realizar la instalación de Jupyter Notebook. Abra una consola **CMD** y lance el comando **pip**; si el programa responde proceda con la  instalación según el manual en [jupyter.org/install](#https://jupyter.org/install).
+> * Valide la instalación anterior lanzando el comando **jupyter notebook** en la consola **CMD**, se debe abrir el navegador por defecto y se debe poder visualizar los archivos del directorio actual.
+
+#### R for Windows 3.5.x
+> * Realizar la instalación de R [3.5.x](#https://cran.r-project.org/bin/windows/base/). Siga el wizzard de instalación y al final verifique que en la variable de ambiente **PATH** se encuentra la rutan *bin* de R.
+> * Instalar el Kernel de R en Jupyter Notebook. Siga las instrucciones del siguiente manual: [irkernel.github.io](#https://irkernel.github.io/installation/)
+
+#### Visual Studio Code (*Opcional*)
+1. Realizar la instalación de Visual Studio Code *(Opcional)*. Descargue e instale el producto, la url para descarga es la siguiente: [code.visualstudio.com](#https://code.visualstudio.com/download)
+2. Abra el IDE y realice la instalación de los plugins Python que desee. Los recomendados son los siguientes: Python extension for Visual Studio Code, R support for Visual Studio Code, Code Runner (Ejecutor de scripts en cualquier lenguaje).
 
 ## Instalación de Python y R con Anaconda
 Ver manual de instalación: [install-python-R-windows10.pdf](https://github.com/dazulu4/sura-dojo-ml/blob/master/install-python-R-windows10.pdf)
