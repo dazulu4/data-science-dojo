@@ -1,4 +1,5 @@
-# DOJO: Python y R
+DOJO: Python y R
+===
 Repositorio con material para realización del **DOJO** básico de Python y R con introducción ML
 
 ## Instalación de Python y R sin Anaconda
