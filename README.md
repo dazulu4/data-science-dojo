@@ -8,18 +8,18 @@ Con el fin de aprender, vamos a realizar la instalación de los productos sin An
 #### Python 3.7
 * Realizar la instalación de Python [3.7.x](https://www.python.org/downloads/windows/). Siga el wizzard de instalación y al final verifique que en la variable de ambiente **PATH** se encuentra la rutan *bin* de Python.
 * Realizar la instalación de Jupyter Notebook. Abra una consola **CMD** y lance el comando **pip**; si el programa responde proceda con la  instalación:
-> Actualizar la instalación de pip a la última versión:
-```
-python -m pip install --upgrade pip
-```
-> Realizar la instalación del componente Notebook:
-```
-pip install notebook
-```
-> Realizar la instalación del componente Jupyter:
-```
-pip install jupyter
-```
+  * Actualizar la instalación de pip a la última versión:
+  ```
+  python -m pip install --upgrade pip
+  ```
+  * Realizar la instalación del componente Notebook:
+  ```
+  pip install notebook
+  ```
+  * Realizar la instalación del componente Jupyter:
+  ```
+  pip install jupyter
+  ```
 * Valide la instalación anterior lanzando el comando **jupyter notebook** en la consola **CMD**, se debe abrir el navegador por defecto y se debe poder visualizar los archivos del directorio actual.
 
 #### R for Windows 3.5
