@@ -22,9 +22,24 @@ Con el fin de aprender, vamos a realizar la instalación de los productos sin An
   ```
 * Valide la instalación anterior lanzando el comando **jupyter notebook** en la consola **CMD**, se debe abrir el navegador por defecto y se debe poder visualizar los archivos del directorio actual.
 
-#### R for Windows 3.5
-* Realizar la instalación de R [3.5.x](https://cran.r-project.org/bin/windows/base/). Siga el wizzard de instalación y al final verifique que en la variable de ambiente **PATH** se encuentra la rutan *bin* de R.
-* Instalar el Kernel de R en Jupyter Notebook. Siga las instrucciones del siguiente manual: [irkernel.github.io](https://irkernel.github.io/installation/)
+#### R 3.5 for Windows
+* Realizar la instalación de R [3.5.x](https://cran.r-project.org/bin/windows/base/). Siga el wizzard de instalación y al final verifique que en la variable de ambiente **PATH** se encuentra la ruta *bin* de la instalación de R.
+* Instalar el Kernel de R para Jupyter Notebook. Siga las instrucciones siguientes:
+  * Ingrese en la consola de R desde CMD ejecutando el comando **R**.
+  * Realiza la instalación del paquete para configuración del Kernel:
+  ```
+  install.packages('IRkernel')
+  ```
+  * Ejecuta el comando de configuración del Kernel para el usuario actual:
+  ```
+  IRkernel::installspec()
+  ```
+  * Ejecuta el comando de configuración del Kernel para todos los usuarios:
+  ```
+  IRkernel::installspec(user = FALSE)
+  ```
+  * Cierre la consola de R utilizando **quit()** o **Ctrl+d**.
+  * Ejecuta el comando **jupyter notebook**. Cuando habra el home de jupyter haz clic en *New* y verifica que aparezca la opción **R**. Esto quiere decir que el Kernel fue instalado correctamente.
 
 #### Visual Studio Code (*Opcional*)
 * Realizar la instalación de Visual Studio Code *(Opcional)*. Descargue e instale el producto, la url para descarga es la siguiente: [code.visualstudio.com](https://code.visualstudio.com/download)
