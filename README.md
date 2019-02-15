@@ -71,18 +71,18 @@ jupyter notebook
 ```
 
 ## Ejercicios Básicos de Python
-> * P01-uso-interactivo.ipynb
-> * P02-programacion.ipynb
-> * P03-extraccion.ipynb
-> * P04-transformacion.ipynb
-> * P05-visualizacion.ipynb
+> * [P01-uso-interactivo.ipynb](P01-uso-interactivo.ipynb)
+> * [P02-programacion.ipynb](P02-programacion.ipynb)
+> * [P03-extraccion.ipynb](P03-extraccion.ipynb)
+> * [P04-transformacion.ipynb](P04-transformacion.ipynb)
+> * [P05-visualizacion.ipynb](P05-visualizacion.ipynb)
 
 ## Ejercicios Básicos de R
-> * R01-uso-interactivo.ipynb
-> * R02-programacion.ipynb
-> * R03-extraccion.ipynb
-> * R04-transformacion.ipynb
-> * R05-visualizacion.ipynb
+> * [R01-uso-interactivo.ipynb](R01-uso-interactivo.ipynb)
+> * [R02-programacion.ipynb](R02-programacion.ipynb)
+> * [R03-extraccion.ipynb](R03-extraccion.ipynb)
+> * [R04-transformacion.ipynb](R04-transformacion.ipynb)
+> * [R05-visualizacion.ipynb](R05-visualizacion.ipynb)
 
 ## Ejercicios Avanzados de Python (ML)
 > * Pendiente
