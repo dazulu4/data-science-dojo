@@ -57,15 +57,15 @@ PATH=%PATH%;D:\Programas\Anaconda3;D:\Programas\Anaconda3\Library\bin;D:\Program
 ## Sincronización del Repositorio GitHub
 1. Clona el repositorio:
 ```
-git clone https://github.com/dazulu4/sura-dojo-ml.git
+git clone https://github.com/dazulu4/data-science-dojo.git
 ```
 2. Ingresa en el directorio de trabajo
 ```
-cd sura-dojo-ml
+cd data-science-dojo
 ```
 
 ## Ejecución de Documentos Jupyter
-Sobre el directorio **sura-dojo-ml** ejecute el comando:
+Sobre el directorio **data-science-dojo** ejecute el comando:
 ```
 jupyter notebook
 ```
